@@ -58,31 +58,31 @@
 - Three models were trained and evaluated:
 
 - 1. **Logistic Regression**
--    **Precision:** 0.89
--    **Recall:** 0.32
--    **ROC-AUC:** 0.991
--    **F1-Score:** Low, indicating a trade-off between precision and recall.
+----    **Precision:** 0.89
+----    **Recall:** 0.32
+----    **ROC-AUC:** 0.991
+----    **F1-Score:** Low, indicating a trade-off between precision and recall.
 
 - 2. **Random Forest**
--    **Precision:** 0.96
--    **Recall:** 0.63
--    **ROC-AUC:** 0.982
--    **F1-Score:** 0.76, showing better balance between precision and recall.
+----    **Precision:** 0.96
+----    **Recall:** 0.63
+----    **ROC-AUC:** 0.982
+----    **F1-Score:** 0.76, showing better balance between precision and recall.
 
 - 3. **XGBoost**
--    **Precision:** 0.93
--    **Recall:** 0.74
--    **ROC-AUC:** 0.999
--    **F1-Score:** 0.83, the highest among the three models.
+----    **Precision:** 0.93
+----    **Recall:** 0.74
+----    **ROC-AUC:** 0.999
+----    **F1-Score:** 0.83, the highest among the three models.
 
 ## Model Comparison
 - XGBoost outperforms Logistic Regression and Random Forest in recall and F1-score, making it the best model for detecting fraud cases in this dataset.
 
 ## Key Findings
 - **Top Features:**
--    **Random Forest:** Amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest.
--    **Logistic Regression:** Amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest.
--    **XGBoost:** Amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest.
+----    **Random Forest:** Amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest.
+----    **Logistic Regression:** Amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest.
+----    **XGBoost:** Amount, oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest.
 - **Fraud Detection:** XGBoost showed the best performance in identifying fraudulent transactions, with the highest recall and F1-score.
 
 ## Conclusion
